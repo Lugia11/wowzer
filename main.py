@@ -1,5 +1,5 @@
 from pyscript import document
-import keyboard
+ from pip install keyboard import keyboard
 
 def on_w_press(event):
     if event.name == 'w':
@@ -11,4 +11,5 @@ print ("Hello world")
 output_div = document.querySelector("#textarea")
 
 output_div.innerText = "hello world!"
+
 
